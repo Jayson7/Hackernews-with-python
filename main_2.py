@@ -48,6 +48,6 @@ for article_id in article_ids[:100]: # we only want the first 100 articles
 # print(sorted_dict)
 
 for article in five_articles_dicts:
-    print('\nTitle:', five_articles_dicts['Title']) # \n to add a break between each five_articles_dicts's info
-    print('Discussion Link:', five_articles_dicts['Discussion link'])
-    print('Comments:', five_articles_dicts['Comments'])
+    print('\nTitle:', article['Title']) # \n to add a break between each article's info
+    print('Discussion Link:', article['Discussion link'])
+    print('Comments:', article['Comments'])
